@@ -1,0 +1,3 @@
+# Dart Null Safety Bug
+
+This repository demonstrates a common error in Dart related to null safety.  The `MyClass` uses a nullable variable `_myVariable` and handles a potential null using the null-aware operator `??`. However, improper handling of the null-aware operator might lead to unexpected behavior or exceptions.  The solution shows how to safely handle potential null values to avoid runtime errors.
